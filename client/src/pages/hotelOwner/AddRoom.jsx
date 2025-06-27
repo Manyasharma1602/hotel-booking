@@ -4,6 +4,7 @@ import { assets } from '../../assets/assets'
 
 const AddRoom =() => {
 
+
         const [images, setImages] = useState({
             1: null,
             2: null,
@@ -21,6 +22,8 @@ const AddRoom =() => {
                 'Pool Access': false
             }
         })
+
+    
 
     return(
            <form>
